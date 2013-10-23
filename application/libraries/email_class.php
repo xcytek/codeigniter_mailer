@@ -6,8 +6,8 @@ class Email_class{
 	private $password;
 
 	function __construct(){	
-		$this->email = 'alexcytek@gmail.com';
-		$this->password = 'matrix2013';
+		$this->email = '';
+		$this->password = '';
 	}	
 	
 	function send_email($data){

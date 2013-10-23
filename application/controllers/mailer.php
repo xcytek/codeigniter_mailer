@@ -21,7 +21,7 @@ class Mailer extends CI_Controller {
 			'message' => $message
 			);
 		if($this->email_class->send_email($email_data))
-			echo 'Send! <a href="'.base_url().'">Back</a>';
+			echo 'Done! <a href="'.base_url().'">Back</a>';
 		else
 			echo 'Error!';
 	}
